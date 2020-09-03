@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+#body{
+	background-color: #2E2E2E;
+}
+#header {
+	background-color: #1DB954;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 3vw;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	height: 6vw;
+	padding-top: 1vw;
+}
+a.topTracks{
+    font-size: 2.2vw;
+	padding: 25px;
+	text-decoration: none;
+    color: black;
+}
+a.topArtists{
+    font-size: 2.2vw;
+	padding: 15px;
+	text-decoration: none;
+    color: black;
+}
+a.artistHistory{
+    font-size: 2.2vw;
+	padding: 15px;
+	text-decoration: none;
+    color: black;
+}
+a.player{
+    font-size: 2.2vw;
+	padding-left: 15px;
+	text-decoration: none;
+    color: black;
+}
+.contentSearch{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 4vw;
+	color: #1DB954;
+	top: 12vw;
+	left: 34vw;
+	position: absolute;
+}
+#contentSearchBox{
+	background-color: #5D5D5D;
+	top: 22vw;
+	left: 22vw;
+	width: 50vw;
+	height: 5vw;
+	font-size: 3vw;
+	position: absolute;
+	font-family: 'Titillium Web', sans-serif;
+	resize: none;
+	
+}
+.description{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 3vw;
+	color: #1DB954;
+	top: 29vw;
+	left: 17vw;
+	width: 60vw;
+	position: absolute;
+	text-align: center;
+}
+.dropbtn {
+  background-color: #1DB954;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 2vw;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+.yearSelect{
+	top: 13vw;
+	left: 41.5vw;
+	position: absolute;
+	z-index: 1000;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5D5D5D;
+	width: 15vw;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.5vw;
+  font-family: 'Titillium Web', sans-serif;
+  display: block;
+	text-align: center;
+}
+.dropdown-content a:hover {background-color: #ddd}
+.show {display:block;}
+.column {
+  float:left;
+  width: 20%;
+  top: 25vw;
+  position: relative;
+	padding: -5vw;
+	font-size: 2vw;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	left: 1vw;
+}
+.column img{
+	box-shadow: 1vw 1vw 1vw rgba(0,0,0,0.6);
+}
+.topArtistText{
+	max-width: 16vw;
+	text-align: center;
+}
